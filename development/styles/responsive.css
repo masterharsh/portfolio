@@ -1,0 +1,3 @@
+@media screen and (max-width: 450px) {
+  body { overflow: auto; } /* Or change the height or whatever */ 
+}
