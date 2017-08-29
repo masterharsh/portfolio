@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html ng-app="harsh">
+	<head>
+		<title>Harsh Jain </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--To control the width and scaling of the browser's viewport -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+        <!--styles-------------------------------------------------------------------->
+            <!-- Bootstrap core CSS -->
+    <link href="./components/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+    <link href="./components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/responsive.css" rel="stylesheet">
+        <!--styles-------------------------------------------------------------------->
+        
+    </head>
+    <body>
+        <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" ui-sref="home">Harsh Jain</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="portfolio">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" ui-sref="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        
+        <!-- Header -->
+        <div class="flex" ui-view></div>        
+          
+        
+        
+        
+        <!-- Bootstrap core JavaScript -->
+    <script src="./components/jquery/jquery.min.js"></script>
+    <script src="./components/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./components/angular/angular.min.js"></script>
+    <script src="./components/angular/ui-router.js"></script>
+    <script src="./components/sketch.js"></script>
+    <script src="./scripts/app.js"></script>    
+    <script src="./scripts/controllers/portfolioHome.js"></script>
+    <script src="./scripts/controllers/aboutMe.js"></script>
+    <script src="./scripts/controllers/contact.js"></script>
+    <script src="./scripts/controllers/portfolio.js"></script>
+
+
+	</body>
+</html>

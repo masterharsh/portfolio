@@ -1,0 +1,116 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;    
+}
+.flex{
+   
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.intro-header1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background-color: #DB2B38;
+}
+.intro-header2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #f8f8f8;
+  background-color: #000;
+}
+.intro-message1 {
+  position: relative;
+  padding-top: 20%;
+ 
+}
+.intro-message2 {
+  position: absolute;
+  left:0;
+  right: 0;    
+}
+
+@-webkit-keyframes typing { from { width:0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.introHeading{
+    font: bold 2em monospace;
+    color: black;
+	border-right: .1em solid black;
+	width: 275px;
+	white-space: nowrap;
+	overflow: hidden;
+    -webkit-animation: typing 10s steps(19, end),
+                       blink-caret .5s step-end infinite alternate;
+    display:-webkit-inline-box;
+}
+.social-btn{
+    margin:0.5rem;
+}
+.homeDivider{
+    margin:0px;
+}
+#sketch{
+  text-align: center;
+  background-color: #2b2b2b;
+}
+.about-me{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: #f9ff7f;
+    padding-bottom: 30%; 
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.aboutContent{
+    padding: 0% 5%;
+    
+}
+.aboutPic{
+    max-width: 100%;
+    filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+.aboutPic:hover{
+    filter: none;
+  -webkit-filter: none;
+    
+}
+.linkedin:hover{
+    background-color: #0084bf;
+}
+.github:hover{
+    background-color: #28a745;
+}
+.twitter:hover{
+    background-color: #1da1f2;
+}
+
+.aboutHeading{
+   font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+
+    font-weight: 400;
+}
+.aboutIntro{
+     font-family: 'Nunito', sans-serif;
+     font-weight: 400;
+}
+.aboutIcons{
+    width:20%;
+}
+.processText{
+   word-wrap: break-word;
+     font-weight:400;    
+}
